@@ -18,6 +18,7 @@
     "vuetify": "1.1.8"
   },
   "devDependencies": {
+    "@types/node": "^18.11.18",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^8.2.1",

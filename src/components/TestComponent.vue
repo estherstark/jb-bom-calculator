@@ -1,7 +1,9 @@
 <template>
   <div>
     <v-toolbar dark color="grey darken-3">
-      <v-img src="https://www.jenbunjerd.com/images/logo-menu.png" />
+      <v-toolbar-side-icon>
+        <v-img src="https://www.jenbunjerd.com/images/logo-menu.png" />
+      </v-toolbar-side-icon>
       <v-toolbar-title>JB BoM Calculator</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn icon>

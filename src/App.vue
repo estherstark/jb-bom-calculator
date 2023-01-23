@@ -30,6 +30,7 @@
 import HelloWorld from "./components/HelloWorld";
 // eslint-disable-next-line
 import TestComponent from "./components/TestComponent.vue";
+// eslint-disable-next-line
 import Test1Vue from "./components/Test1.vue";
 
 export default {
