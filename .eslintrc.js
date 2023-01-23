@@ -32,6 +32,10 @@ module.exports = {
         vue: "never"
       }
     ],
+    "linebreak-style": [
+      "error",
+      process.platform === "win32" ? "windows" : "unix"
+    ],
     // disallow reassignment of function parameters
     // disallow parameter object manipulation except for specific exclusions
     "no-param-reassign": [
