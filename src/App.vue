@@ -1,23 +1,23 @@
 <template>
   <v-app>
     <div id="app">
-      <TestComponent/>
+      <TestComponent />
     </div>
   </v-app>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld";
-import TestComponent from './components/TestComponent.vue'
+// eslint-disable-next-line
+import TestComponent from "./components/TestComponent.vue";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
-    TestComponent,
+    TestComponent
   }
 };
 </script>
 
-<style>
-</style>
+<style></style>
