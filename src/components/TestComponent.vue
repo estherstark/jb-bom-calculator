@@ -1,8 +1,10 @@
 <template>
   <div>
     <v-toolbar dark color="grey darken-3">
-      <v-toolbar-side-icon></v-toolbar-side-icon>
-      <v-toolbar-title class="white--text">JB BoM Calculator</v-toolbar-title>
+      <v-toolbar-side-icon>
+        <v-img src="https://www.jenbunjerd.com/images/logo-menu.png" />
+      </v-toolbar-side-icon>
+      <v-toolbar-title>JB BoM Calculator</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn icon>
         <v-icon>search</v-icon>
@@ -52,7 +54,7 @@
       </v-flex>
     </v-layout>
     <div class="text-xs-center mt-3">
-      <v-btn color="white" @click="next">next</v-btn>
+      <v-btn color="white" v-on:click="next">next</v-btn>
     </div>
   </div>
 </template>
@@ -67,21 +69,25 @@ export default {
       msg: "Message goes here",
       items: [{ title: "one" }, { title: "two" }],
       active: null,
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     };
   },
+  /* eslint-env browser */
   methods: {
-    resize() {
-      console.log("resized");
-    },
     next() {
-      const active = parseInt(this.active);
+      const active = parseInt(this.active, 10);
       this.active = active < 2 ? active + 1 : 0;
     },
+
+    resize() {
+      // eslint-disable-next-line no-console
+      // eslint-disable-next-line
+      console.log("resized");
+    }
   },
   components: {
-    SplitPane,
-  },
+    SplitPane
+  }
 };
 </script>
 
