@@ -1,8 +1,8 @@
 <template>
   <div>
     <v-toolbar dark color="grey darken-3">
-      <v-toolbar-side-icon></v-toolbar-side-icon>
-      <v-toolbar-title class="white--text">JB BoM Calculator</v-toolbar-title>
+      <v-img src="https://www.jenbunjerd.com/images/logo-menu.png" />
+      <v-toolbar-title>JB BoM Calculator</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn icon>
         <v-icon>search</v-icon>
