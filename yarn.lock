@@ -9524,6 +9524,11 @@
     "vue-style-loader" "^4.0.1"
     "vue-template-es2015-compiler" "^1.6.0"
 
+"vue-material-design-icons@^5.1.2":
+  "integrity" "sha512-nD1qFM2qAkMlVoe23EfNKIeMfYl6YjHZjSty9q0mwc2gXmPmvEhixywJQhM+VF5KVBI1zAkVTNLoUEERPY10pA=="
+  "resolved" "https://registry.npmjs.org/vue-material-design-icons/-/vue-material-design-icons-5.1.2.tgz"
+  "version" "5.1.2"
+
 "vue-splitpane@1.0.2":
   "integrity" "sha512-Gt75+3MqngNOcRja0oomQK3piMxNy8wYeXn1ZJa1uLSiQB6FeAerUyARkA47e9j44CSDLCf2srJNXV4/bem0Iw=="
   "resolved" "https://registry.npmjs.org/vue-splitpane/-/vue-splitpane-1.0.2.tgz"
