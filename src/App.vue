@@ -3,9 +3,6 @@
     <div id="app">
       <Test1Vue />
     </div>
-    <v-navigation-drawer app>
-      <!-- -->
-    </v-navigation-drawer>
 
     <v-app-bar app>
       <!-- -->
@@ -20,9 +17,6 @@
       </v-container>
     </v-main>
 
-    <v-footer app>
-      <!-- -->
-    </v-footer>
   </v-app>
 </template>
 

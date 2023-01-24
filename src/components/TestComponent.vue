@@ -64,7 +64,7 @@ import SplitPane from "vue-splitpane";
 
 export default {
   name: "TestComponent",
-  data() {
+    data() {
     return {
       msg: "Message goes here",
       items: [{ title: "one" }, { title: "two" }],
