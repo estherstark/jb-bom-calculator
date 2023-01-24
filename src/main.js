@@ -5,9 +5,7 @@ import Vue from "vue";
 import App from "./App";
 import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.min.css";
-import MenuIcon from "vue-material-design-icons/Menu.vue";
 
-Vue.component("menu-icon", MenuIcon);
 Vue.use(Vuetify);
 Vue.config.productionTip = false;
 
