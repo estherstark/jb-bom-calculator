@@ -15,37 +15,44 @@
       <v-spacer />
       <v-btn class="black--text" depressed color="yellow" accent-4>login</v-btn>
     </v-toolbar>
-    <v-card class="pa-5 mx-lg-auto" outlined tile>
-      <h2 class="font-weight-regular">Welcome to <br /></h2>
-      <h1>JB BoM Calculator</h1>
-      <img
-        src="../assets/img-login.png"
-        responsive
-        style="max-width: 50%;
-          max-height: 50%;"
-      />
-    </v-card>
 
     <v-container>
-      <v-card class="pa-3 rounded-lg" color="grey lighten-3" width="400px">
-        <h2 class="text-center">Please Log In</h2>
+      <v-row>
+        <v-col>
+          <v-card class="pa-5 mx-lg-auto">
+            <h2 class="font-weight-regular">Welcome to <br /></h2>
+            <h1>JB BoM Calculator</h1>
+            <img
+              src="../assets/img-login.png"
+              responsive
+              style="max-width: 50%;
+          max-height: 50%;"
+            />
+          </v-card>
+        </v-col>
 
-        <v-text-field
-          label="Employee ID"
-          color="white"
-          outlined
-          :rules="rules"
-        ></v-text-field>
-        <v-text-field
-          label="Password"
-          color="white"
-          outlined
-          :rules="rules"
-        ></v-text-field>
-        <v-btn class="login-btn" depressed color="yellow" accent-4>
-          login
-        </v-btn>
-      </v-card>
+        <v-col>
+          <v-card class="pa-3 rounded-lg" color="grey lighten-3" width="400px">
+            <h2 class="text-center">Please Log In</h2>
+
+            <v-text-field
+              label="Employee ID"
+              color="white"
+              outlined
+              :rules="rules"
+            ></v-text-field>
+            <v-text-field
+              label="Password"
+              color="white"
+              outlined
+              :rules="rules"
+            ></v-text-field>
+            <v-btn class="login-btn rounded-lg" color="yellow" accent-4>
+              login
+            </v-btn>
+          </v-card>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
