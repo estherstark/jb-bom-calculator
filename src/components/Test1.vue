@@ -4,15 +4,17 @@
     <v-toolbar color="grey darken-4" dense dark>
       <v-toolbar-title>JB BoM Calculator</v-toolbar-title>
     </v-toolbar>
-    
-    <v-form>
-      <v-container>
-        <h1>Welcome to <br />JB BoM Calculator</h1>
 
-        <v-img
-          src="https://img.freepik.com/free-vector/flat-business-…c049725cd948933599a4f5970a4c36976affd724ea9b16b25"
-        ></v-img>
+    <v-container>
+      <v-row>
+        <v-col></v-col>
+      </v-row>
+    </v-container>
 
+    <h1>Welcome to <br />JB BoM Calculator</h1>
+    <img src="../assets/img-login.png" max-height="10px" contain />
+    <v-container fluid>
+      <v-form>
         <v-text-field solo label="Append"></v-text-field>
 
         <v-card
@@ -37,14 +39,17 @@
             login
           </v-btn>
         </v-card>
-      </v-container>
-    </v-form>
+      </v-form>
+    </v-container>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Test1"
+  name: "Test1",
+  data: () => ({
+    alignments: ["start", "center", "end"]
+  })
 };
 </script>
 
