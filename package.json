@@ -13,6 +13,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/js": "^7.1.96",
     "vue": "^2.5.2",
     "vue-material-design-icons": "^5.1.2",
     "vue-splitpane": "1.0.2",
