@@ -16,10 +16,27 @@
         >
         <v-spacer />
         <v-btn class="black--text" depressed color="yellow" accent-4>
-          please login</v-btn
+          Employee ID</v-btn
         >
       </v-toolbar>
     </v-app-bar>
+    <h1 class="ma-4 font-weight-regular text-center">
+      Input Job Details
+    </h1>
+    <v-card>
+      <v-text-field
+        label="Enter Job Name/ID"
+        :rules="rules"
+        hide-details="auto"
+      ></v-text-field>
+      <v-text-field
+        label="Enter Number of Set"
+        :rules="rules"
+        hide-details="auto"
+      ></v-text-field>
+
+      <v-btn class="black--text" depressed color="yellow" border 1px solid white;'> Next ></v-btn>
+    </v-card>
   </v-app>
 </template>
 
