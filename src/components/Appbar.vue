@@ -38,42 +38,6 @@
       >
     </v-toolbar>
   </v-app-bar>
-
-  <!--<template>
-  <div>
-    <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link v-if="!isLoggedIn" to="/login">Login</router-link>
-      <span v-if="isLoggedIn">{{username}}</span>
-      <router-link v-if="isLoggedIn" to="/logout">Logout</router-link>
-    </nav>
-    <router-view/>
-  </div>
-</template>
-
-<script>
-export default {
-  data() {
-    return {
-      isLoggedIn: false,
-      username: ""
-    }
-  },
-  methods: {
-    login() {
-      // Code to handle login
-      this.isLoggedIn = true;
-      this.username = "John Doe";
-    },
-    logout() {
-      // Code to handle logout
-      this.isLoggedIn = false;
-      this.username = "";
-    }
-  }
-}
-</script> -->
 </template>
 
 <script>
@@ -98,3 +62,5 @@ export default {
   }
 };
 </script>
+
+<style></style>
