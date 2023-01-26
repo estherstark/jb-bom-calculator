@@ -9,7 +9,7 @@
       color="grey lighten-3"
       style="min-width: 300px;"
     >
-      <v-layout column align-center class="mt-3 mb-3" v-for="n in 3" :key="n">
+      <v-layout column align-center class="mt-3 mb-3" v-for="n in 2" :key="n">
         <v-row>
           <v-col>
             <span>Set {{ n }}: </span>
@@ -17,7 +17,7 @@
           <v-col>
             <v-text-field
               outlined
-              placeholder="Enter Job Name/ID"
+              placeholder="Enter Set Name/ID"
               type="text"
               max-width="200px"
             ></v-text-field>
