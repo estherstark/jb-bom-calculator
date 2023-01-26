@@ -13,22 +13,15 @@
         <v-row>
           <v-col>
             <span>Set {{ n }}: </span>
-          </v-col>
-          <v-col>
             <v-text-field
               outlined
               placeholder="Enter Set Name/ID"
               type="text"
               max-width="200px"
             ></v-text-field>
-          </v-col>
-        </v-row>
-        <v-spacer></v-spacer>
-        <v-row>
-          <v-col>
+
             <span>Number of Set:</span>
-          </v-col>
-          <v-col>
+
             <v-text-field
               outlined
               placeholder="Enter Number of Set"
