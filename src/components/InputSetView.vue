@@ -1,28 +1,47 @@
 <template>
   <v-app>
-    <h1 class="ma-4 font-weight-regular text-center">
-      Input Details to Calculate
+    <h1 class="ma-4 font-weight-regular">
+      Input Details for Calculating
     </h1>
 
-    <v-card class="pa-4 ma-2 d-flex justify-center align-center">
-      <v-layout column align-center>
-        <v-row>
-          <v-col class="order-2">
-            <p>Job Name</p>
-          </v-col>
-          <v-col><v-text-field outlined></v-text-field> </v-col>
-        </v-row>
+    <v-container>
+      <v-card
+        class="pa-4 ma-2 d-flex justify-center align-center"
+        color="grey lighten-3"
+        style="min-width: 300px;"
+      >
+        <v-layout column align-center class="mt-3 mb-3">
+          <v-row>
+            <v-col>
+              <span>Job Name:</span>
+            </v-col>
+            <v-col>
+              <v-text-field
+                outlined
+                placeholder="Enter Job Name/ID"
+                type="text"
+                max-width="200px"
+              ></v-text-field>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col>
+              <span>Number of Set:</span>
+            </v-col>
+            <v-col>
+              <v-text-field
+                outlined
+                placeholder="Enter Number of Set"
+                type="text"
+                max-width="200px"
+              ></v-text-field>
+            </v-col>
+          </v-row>
 
-        <v-row>
-          <v-col class="order-1">
-            <p>Number of Set</p>
-          </v-col>
-          <v-col><v-text-field outlined></v-text-field> </v-col>
-        </v-row>
-
-        <v-col> <v-btn>Next</v-btn></v-col>
-      </v-layout>
-    </v-card>
+          <v-btn @click="nextView" depressed color="white">Next</v-btn>
+        </v-layout>
+      </v-card>
+    </v-container>
   </v-app>
 </template>
 
@@ -39,5 +58,8 @@ export default {
 .some-height {
   height: 100px;
   width: 100%;
+}
+.v-btn--outlined {
+  border: thin solid #ffd600;
 }
 </style>

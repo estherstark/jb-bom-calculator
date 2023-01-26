@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <div id="app">
-      <InputSetView />
+      <Appbar />
     </div>
   </v-app>
 </template>
@@ -10,15 +10,18 @@
 // eslint-disable-next-line
 import LoginView from "./components/LoginView";
 import InputJobView from "./components/InputJobView";
-import SvgIcon from "@jamescoyle/vue-icon";
 import InputSetView from "./components/InputSetView";
+import Appbar from "./components/Appbar";
+import HelloWorldVue from "./components/HelloWorld.vue";
 
 export default {
   name: "App",
   components: {
     LoginView,
     InputJobView,
-    InputSetView
+    InputSetView,
+    Appbar,
+    HelloWorldVue
   }
 };
 </script>
