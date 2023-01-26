@@ -18,8 +18,16 @@
         <v-btn class="black--text" depressed color="yellow" accent-4>
           Employee ID</v-btn
         >
+        <v-select
+          v-model="select"
+          :items="items"
+          :rules="[v => !!v || 'Item is required']"
+          label="Item"
+          required
+        ></v-select>
       </v-toolbar>
     </v-app-bar>
+
     <h1 class="ma-4 font-weight-regular text-center">
       Input Job Details
     </h1>
@@ -28,14 +36,18 @@
         label="Enter Job Name/ID"
         :rules="rules"
         hide-details="auto"
+        type="text"
       ></v-text-field>
       <v-text-field
         label="Enter Number of Set"
         :rules="rules"
         hide-details="auto"
+        type="text"
       ></v-text-field>
 
-      <v-btn class="black--text" depressed color="yellow" border 1px solid white;'> Next ></v-btn>
+      <v-btn depressed color="yellow">
+        Next
+      </v-btn>
     </v-card>
   </v-app>
 </template>
