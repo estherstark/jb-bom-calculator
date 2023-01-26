@@ -1,27 +1,32 @@
 <template>
-  <v-app>
+  <div class="hello">
+    <div id="appbar"><Appbar /></div>
     <div id="app">
-      <Appbar />
+      <InputCal />
     </div>
-  </v-app>
+  </div>
 </template>
 
 <script>
 // eslint-disable-next-line
+import Appbar from "./components/Appbar";
 import LoginView from "./components/LoginView";
 import InputJobView from "./components/InputJobView";
-import InputSetView from "./components/InputSetView";
-import Appbar from "./components/Appbar";
+import InputCal from "./components/InputCal.vue";
+import OutputPreview from "./components/OutputPreview.vue";
 import HelloWorldVue from "./components/HelloWorld.vue";
+import TestComponent from "./components/TestComponent.vue";
 
 export default {
   name: "App",
   components: {
+    Appbar,
     LoginView,
     InputJobView,
-    InputSetView,
-    Appbar,
-    HelloWorldVue
+    InputCal,
+    OutputPreview,
+    HelloWorldVue,
+    TestComponent
   }
 };
 </script>
