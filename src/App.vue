@@ -12,10 +12,10 @@
 import Appbar from "./components/Appbar";
 import LoginView from "./components/LoginView";
 import InputJobView from "./components/InputJobView";
-import InputCal from "./components/InputCal.vue";
-import OutputPreview from "./components/OutputPreview.vue";
-import HelloWorldVue from "./components/HelloWorld.vue";
-import TestComponent from "./components/TestComponent.vue";
+import InputCal from "./components/InputCal";
+import OutputPreview from "./components/OutputPreview";
+import HelloWorldVue from "./components/HelloWorld";
+import TestComponent from "./components/TestComponent";
 
 export default {
   name: "App",

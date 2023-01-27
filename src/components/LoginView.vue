@@ -1,7 +1,6 @@
 /* eslint-disable */
 <template>
   <div>
-
     <v-container
       class="d-flex align-content-center flex-wrap"
       grid-list-lg
