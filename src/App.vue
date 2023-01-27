@@ -2,7 +2,7 @@
   <div class="hello">
     <div id="appbar"><Appbar /></div>
     <div id="app">
-      <InputCal />
+      <Input />
     </div>
   </div>
 </template>
@@ -10,18 +10,20 @@
 <script>
 // eslint-disable-next-line
 import Appbar from "./components/Appbar";
-import LoginView from "./components/LoginView";
+import Login from "./views/Login";
+import Input from "./views/Input";
 import InputJobView from "./components/InputJobView";
-import InputCal from "./components/InputCal.vue";
-import OutputPreview from "./components/OutputPreview.vue";
-import HelloWorldVue from "./components/HelloWorld.vue";
-import TestComponent from "./components/TestComponent.vue";
+import InputCal from "./components/InputCal";
+import OutputPreview from "./components/OutputPreview";
+import HelloWorldVue from "./components/HelloWorld";
+import TestComponent from "./components/TestComponent";
 
 export default {
   name: "App",
   components: {
     Appbar,
-    LoginView,
+    Login,
+    Input,
     InputJobView,
     InputCal,
     OutputPreview,
@@ -31,4 +33,13 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 10px;
+}
+</style>
