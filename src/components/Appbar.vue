@@ -10,8 +10,7 @@
         />
       </a>
 
-      <v-spacer />
-      <v-app-bar-title class="toolbar-title hidden-sm-and-down"
+      <v-app-bar-title class="pl-3 toolbar-title hidden-sm-and-down"
         >JB BoM Calculator</v-app-bar-title
       >
       <v-spacer />
@@ -68,7 +67,6 @@ export default {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: black;
-  border-color: gold;
   border-radius: 8px;
 }
 </style>
