@@ -1,6 +1,6 @@
-# test-project
+# Jenbunjerd-BoM-Calculator Project
 
-> A Vue.js project
+> using Vue.js and Firebase
 
 ## Build Setup
 
