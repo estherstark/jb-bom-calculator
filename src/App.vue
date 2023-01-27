@@ -2,7 +2,7 @@
   <div class="hello">
     <div id="appbar"><Appbar /></div>
     <div id="app">
-      <Input />
+      <Login />
     </div>
   </div>
 </template>
@@ -10,7 +10,7 @@
 <script>
 // eslint-disable-next-line
 import Appbar from "./components/Appbar";
-import Login from "./views/Login";
+import Login from "./components/Login";
 import Input from "./views/Input";
 import InputJobView from "./components/InputJobView";
 import InputCal from "./components/InputCal";
